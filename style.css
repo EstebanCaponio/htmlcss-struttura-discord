@@ -5,7 +5,7 @@
 }
 
 /***
-colori temporanei
+background-color temporanei
 ***/
 .bgcolor-skyblue {
     background-color: #add8e6;
@@ -13,6 +13,22 @@ colori temporanei
 
 .bgcolor-yellow {
     background-color: #daa520;
+}
+
+.bgcolor-blue {
+    background-color: #00008b;
+}
+
+.bgcolor-white {
+    background-color: #ffffff;
+}
+
+.bgcolor-grey {
+    background-color: #d3d3d3;
+}
+
+.bgcolor-black {
+    background-color: #23272a;
 }
 
 /**********HEADER**********/
@@ -54,4 +70,33 @@ debugu
 
 .login-debug {
     border-left:  2px dashed  black;
+}
+
+/**********MAIN**********/
+
+section{
+    padding: 50px 0px;
+}
+
+.section-1{
+    border-bottom: 3px solid;
+}
+
+.container-s1{
+    margin: 0 auto;
+}
+
+/***
+debugu
+***/
+
+.section-1-debug{
+    border-color: #add8e6;
+}
+
+.cs1-debug{
+    width: 900px;
+    height: 400px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
 }
