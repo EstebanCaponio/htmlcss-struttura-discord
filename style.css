@@ -47,7 +47,7 @@ header {
     padding: 5px 180px 5px 5px;
 }
 
-.link{
+.link {
     padding: 5px 0px;
 }
 
@@ -65,38 +65,77 @@ debugu
 
 
 .logo-debug {
-    border-right: 2px dashed  black;
+    border-right: 2px dashed black;
 }
 
 .login-debug {
-    border-left:  2px dashed  black;
+    border-left: 2px dashed black;
 }
 
 /**********MAIN**********/
 
-section{
+section {
     padding: 50px 0px;
 }
 
-.section-1{
+.general {
+    margin: 0 auto;
+}
+
+/***
+section1
+***/
+.section-1 {
     border-bottom: 3px solid;
 }
 
-.container-s1{
-    margin: 0 auto;
+.container-s1 {
+    /*valori definitivi*/
 }
 
 /***
 debugu
 ***/
-
-.section-1-debug{
+.section-1-debug {
     border-color: #add8e6;
 }
 
-.cs1-debug{
+.cs1-debug {
     width: 900px;
     height: 400px;
     background-color: #ee82ee;
-    border: 1px dashed black;
+    border: 2px dashed black;
+}
+
+/***
+section2
+***/
+.container-s2 {
+    display: flex;
+}
+
+.box-s2big {
+    flex-grow: 3;
+}
+
+.box-s2small {
+    flex-grow: 2;
+}
+
+/***
+debugu
+***/
+.cs2-debug {
+    width: 1200px;
+    height: 500px;
+}
+
+.bs2big-debug {
+    border: 2px dashed black;
+    background-color: #1e90ff;
+}
+
+.bs2small-debug {
+    border: 2px dashed black;
+    background-color: #ffc0cb;
 }
