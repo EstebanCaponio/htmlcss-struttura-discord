@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***
+colori temporanei
+***/
+.bgcolor-skyblue {
+    background-color: #add8e6;
+}
+
+.bgcolor-yellow {
+    background-color: #daa520;
+}
+
+/**********HEADER**********/
+
+header {
+    padding: 15px 360px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 5px 180px 5px 5px;
+}
+
+.link{
+    padding: 5px 0px;
+}
+
+.login {
+    padding: 5px 5px 5px 180px;
+}
+
+/***
+debugu
+***/
+
+.container-header-debug {
+    border: 1px dashed black;
+}
+
+
+.logo-debug {
+    border-right: 2px dashed  black;
+}
+
+.login-debug {
+    border-left:  2px dashed  black;
+}
