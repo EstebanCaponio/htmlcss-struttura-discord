@@ -108,9 +108,9 @@ debugu
 }
 
 /***
-section2-3-4
+section2-3-4-5
 ***/
-.container-s24 {
+.container-s245 {
     display: flex;
 }
 
@@ -143,4 +143,11 @@ debugu
 .bs234small-debug {
     border: 2px dashed black;
     background-color: #ffc0cb;
+}
+
+.cs5-debug{
+    background-color:#228b22;
+    width: 1200px;
+    height: 900px;
+    border: 2px dashed black;
 }
