@@ -83,14 +83,14 @@ section {
 }
 
 /***
-section1
+section1 container non flex
 ***/
 .section-1 {
     border-bottom: 5px solid;
 }
 
 .container-s1 {
-    /*valori definitivi*/
+    /* attesa valori definitivi*/
 }
 
 /***
@@ -108,7 +108,7 @@ debugu
 }
 
 /***
-section2-3-4-5
+section2-3-4-5 tutti flex
 ***/
 .container-s245 {
     display: flex;
@@ -145,9 +145,97 @@ debugu
     background-color: #ffc0cb;
 }
 
-.cs5-debug{
-    background-color:#228b22;
+.cs5-debug {
+    background-color: #228b22;
     width: 1200px;
     height: 900px;
+    border: 2px dashed black;
+}
+
+/**********FOOTER**********/
+footer {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.footer1 {
+    padding-bottom: 40px;
+}
+
+.footer2 {
+    padding: 30px 360px 0px 360px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+/***
+primo container nel footer
+***/
+.container-footer {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.box-fsmall {
+    flex-grow: 3;
+    /*flex-basis: 30%;*/
+}
+
+.box-fbig {
+    flex-grow: 7;
+    /*flex nel flex*/
+    /*flex-basis: 70%;*/
+    display: flex;
+}
+
+.mb-general {
+    flex-basis: 25%;
+}
+
+/***
+secondo container nel footer
+***/
+.container-footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo2{
+padding: 10px;
+}
+
+.bottone{
+padding: 10px;
+}
+
+/***
+debugu
+***/
+.container-footer-debug {
+    width: 1200px;
+    height: 570px;
+}
+
+.box-fsmall-debug {
+    border: 2px dashed black;
+    background-color: #ffc0cb;
+}
+
+.box-fbig-debug {
+    border: 2px dashed black;
+    background-color: #20b2aa;
+}
+
+.mb-general-debug {
+    border: 2px dashed white;
+}
+
+.container-footer2-debug {
+    background-color: #7fffd4;
+}
+
+.logo2-bottone-debug{
+    background-color: #ffb6c1;
     border: 2px dashed black;
 }
