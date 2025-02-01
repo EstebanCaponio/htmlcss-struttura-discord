@@ -86,7 +86,7 @@ section {
 section1
 ***/
 .section-1 {
-    border-bottom: 3px solid;
+    border-bottom: 5px solid;
 }
 
 .container-s1 {
@@ -114,28 +114,28 @@ section2
     display: flex;
 }
 
-.box-s2big {
+.box-s234big {
     flex-grow: 3;
 }
 
-.box-s2small {
+.box-s234small {
     flex-grow: 2;
 }
 
 /***
 debugu
 ***/
-.cs2-debug {
+.cs234-debug {
     width: 1200px;
     height: 500px;
 }
 
-.bs2big-debug {
+.bs234big-debug {
     border: 2px dashed black;
     background-color: #1e90ff;
 }
 
-.bs2small-debug {
+.bs234small-debug {
     border: 2px dashed black;
     background-color: #ffc0cb;
 }
